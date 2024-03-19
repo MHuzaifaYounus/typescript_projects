@@ -1,8 +1,9 @@
 {
-  "name": "modules",
+  "name": "huza_leap_year_checker",
   "version": "1.0.0",
   "description": "",
   "type": "module",
+  "bin": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

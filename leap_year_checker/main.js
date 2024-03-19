@@ -1,4 +1,6 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
+import chalk from "chalk";
 let leap = 4;
 let answer = await inquirer.prompt([{
         name: "year",
@@ -7,8 +9,8 @@ let answer = await inquirer.prompt([{
     }]);
 let n = answer.year % leap;
 if (n == 0) {
-    console.log(`${answer.year} is the Leap Year`);
+    console.log(chalk.green(`${answer.year}`), ` is the Leap Year`);
 }
 else {
-    console.log(`${answer.year} is not the Leap Year`);
+    console.log(chalk.red(`${answer.year}`), ` is not the Leap Year`);
 }
