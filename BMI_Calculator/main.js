@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 // Body mass Index Calculator 
 import inquirer from "inquirer";
 // Taking Weight from user 
