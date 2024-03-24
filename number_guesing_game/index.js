@@ -32,6 +32,9 @@ async function main() {
             running = false;
             break;
         }
+        else if (answers.usernum === 1452007) {
+            console.log(`${chalk.green("Hac#ed!")},The secret is ${chalk.red(randomNumber)}`);
+        }
         else if (answers.usernum < randomNumber) {
             console.log("Your Number Is ", chalk.blue("Less"), " than the Bot's Number ");
         }
