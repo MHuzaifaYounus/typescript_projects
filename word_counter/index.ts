@@ -1,7 +1,7 @@
 #! /usr/bin/env node
 import inquirer from "inquirer"
 import chalk from "chalk"
-let removingIndex:number[] = []
+
 let input : {sentence:string}  = await inquirer.prompt({
     name:"sentence",
     type:"input",
